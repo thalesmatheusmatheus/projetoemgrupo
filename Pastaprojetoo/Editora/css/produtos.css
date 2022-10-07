@@ -1,0 +1,487 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Verdana;
+}
+
+a{
+    text-decoration:none;
+    font-size: 14px;
+}
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+body{
+    background-color: white;
+}
+
+h2{
+    color:#00aa88;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+#divBusca{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:0px;
+    width:300px;
+    padding: 20px;
+}
+
+#txtBusca{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    float:left;
+    border-radius:10px;
+    background-color:white;
+    padding:10px;
+    font-style:italic;
+    font-size:14px;
+    border:none;
+    height:30px;
+    width:300px;
+}
+
+#btnBusca{
+    opacity: 50%;
+    display: flex;
+    margin-left: -27.5px;
+    width: 20px;
+    height: 20px;
+}
+
+#btnCompra{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    opacity: 50%;
+}
+
+#btnCompra:hover{
+    opacity: 100%;
+}
+
+.carrinho{
+    display: flex;
+    font-family: verdana;
+    align-items:center;
+    justify-content:center;
+    width: auto;
+    padding: 10px;
+    height: 60px;
+    background-color:white;
+}
+
+.iconecarrinho{
+    display: flex;
+    font-family: verdana;
+    align-items:center;
+    justify-content:center;
+    width: auto;
+    padding: 10px;
+    height: 60px;
+    background-color:white;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT734twAiYRWM-UV44nT_82GMF2jCVnqRpWeHdKhxST87ziWcOwvJm2AlxGnFgWaPaVCoo&usqp=CAU);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.busca{
+    font-family: verdana;
+    font-weight: bold;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 60px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.horizontal{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+}
+
+.linha{
+    justify-content: center;
+    width: 50%;
+    height: 3px;
+    background-color:#00aa88;    
+}
+
+.barra{
+    display: flex;
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color:#1C2233;
+}
+.barrinha{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background-color:#1C2233;
+}
+
+
+.menu:hover{
+    font-weight: bold;
+    color: white;
+    background-color: #00aa88;  
+      
+}
+
+.menu{
+    font-family: verdana;
+    font-weight: bold;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 60px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.autenticacao:hover{
+    font-weight: bold;
+    color: white;
+    background-color: #00aa88;     
+}
+
+.autenticacao {
+    font-family: verdana;
+    font-weight: bold;
+    color:white;
+    display: flex;
+    height: 60px;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+}
+
+.centro {
+    display: flex;
+    flex-direction: row wrap;
+    margin: auto;
+    width: 87%;
+    height: auto;
+    }
+
+.logo{
+    width:auto;
+    height:60px;
+}
+
+.arredondada{
+    display: flex;
+    background-color: #00aa88;
+    color: white;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.amostra{
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width:400px;
+    height: 200px;
+    padding:none;
+}
+
+.amostra:hover{
+    width: 300%;
+    height: 600px;
+    transition: ease-in-out;
+}
+
+.pai{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width: 90%;
+    height: auto;
+    background-color:#1B1E1F;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.pai:hover{
+    height: 600px;
+}
+
+.caixa{
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    margin-right:20px;
+    width: 240px;
+    height: 240px;
+}
+
+.item{
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+    border: solid #1B1E1F 10px;
+    border-bottom: 0px;
+    border-radius:0px;
+}
+
+.item:hover{
+    background-size: 150%;
+}
+
+.legendaA{
+    display: flex;
+    font-family: verdana;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+    width: 240px;
+    height: 40px;
+    background-color:white;
+}
+
+.legendaB{
+    font-family: verdana;
+    font-size: 15px;
+    color:white;
+    display:flex;
+    justify-content: center;
+    width: 240px;
+    height: 40px;
+    background-color:#1B1E1F;
+    border: solid #1B1E1F 10px;
+}
+
+.preco{
+    display: flex;
+    flex-direction: row;
+    font-family: verdana;
+    font-size: 40px;
+    color:white;
+    align-items:center;
+    justify-content:center;
+    width: auto;
+    padding-right: 30px;
+    padding-left: 10px;
+    height: 40px;
+    background-color:#00aa88;    
+    border-top-right-radius: 40px;
+}
+
+.preco2{
+    display: flex;
+    flex-direction: row;
+    font-family: verdana;
+    font-size: 40px;
+    color:white;
+    align-items:center;
+    justify-content:center;
+    width: auto;
+    padding-right: 30px;
+    height:60px;
+    background-color:#00aa88;
+     
+}
+
+.compra{
+    display: flex;
+    flex-direction: row;
+    font-family: verdana;
+    align-items:center;
+    justify-content:center;
+    width: auto;
+    padding-right: 10px;
+    height: 40px;
+    background-color:white;
+    border-right:solid #1B1E1F 10px;
+}
+
+.compra2{
+    display: flex;
+    font-family: verdana;
+    align-items:center;
+    justify-content:center;
+    width: auto;
+    padding: 10px;
+    height: 60px;
+    background-color:white;
+}
+
+.invisivel{
+    padding-top: 60px;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 60px;
+}
+
+.secao{
+    display: flex;
+    justify-content:baseline;
+    padding: 10px;
+    background: white;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+
+.retorno{
+    font-size: 12px;
+    font-family: verdana;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding-right: 10px;
+}
+
+.opcoes{
+    font-family: verdana;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width: 200px;
+    height: 60px;
+}
+
+.primeira{
+    color: white;
+    background-color: brown;
+}
+
+.segunda{
+    color: white;
+    background-color: blueviolet;
+
+}
+
+.terceira{
+    color: white;
+    background-color: orangered;
+}
+
+.quarta{
+    color: white;
+    background-color: green;
+}
+
+.ordemparanormal{
+    background-image: url(https://jamboeditora.com.br/wp-content/uploads/2021/11/jamboeditora-mockup-caixa-f.png?x11295);
+
+}
+
+.vampirobase{
+    background-image: url(https://kzarashi.com.br/wp-content/uploads/2021/06/vampiro-a-mascara.png);
+}
+
+.vampirocamarilla{
+    background-image: url(https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQLQgulS5YLEQF-fHI8Jdk6DF5dVTp35DDdYT0pY5cxX4PNLaH0wRMR8MhlOhUsZaJWzSDbocZkdljYRMDmlQz9dSanXSe1ciMRtX7RQaodkGt0XmjpjmzmVQ&usqp=CAE);
+}
+
+.vampirosabbat{
+    background-image: url(https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRkYft3br8bXItKuMphtV3xpOpnjnbVUot7Koy5djWocoHX4TkNSfkECyQ3iqleQp6eAlwvDXpxopNBQOljVYoI8s3w0DbVHZ0SE0qE1Uf5MhHc98rWg04q&usqp=CAE);
+}
+
+.vampiroanarch{
+    background-image: url(https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQONY8qO_Ic43ORB3nN4p9rXNLLhFCT3xwCxpjoV1jSLOVGqP59gZkNsbVZa6PHRXhu-oizJfoAZG5vuUKVvhbkkwLoop3_i5hmJslcV3a0XlYJG-wJKnkm_ks&usqp=CAE);
+}
+
+.dnd5jogador{
+    background-image: url(https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQlGYDhwEOpIekHU60T744ty4KmxcJexFY036NkAxRRNXxGNJvj0Yc6HUeZUyYEnt5uaR8hnDG1k9sioHdWiUqXfIlDNSvbruN-pnGjudu7&usqp=CAE);
+}
+
+.dnd5mestre{
+    background-image: url(https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ_R8Q4ZnjngVE11vPWgpQ2O8LMb0NmIycfGUDEfdwLI0Xq96MLS38bLIhHIssFSZIEErXZheLFpuxSNOdZ4Upx8yd9RljSYlDItmCJSe8ul0yZehPwH-AbGw&usqp=CAE);
+    background-size:cover;
+}
+
+.dnd5monstros{
+    background-image: url(https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRpiRtyrRGjOGyyQ218w9FX3E0kjtesAuDaILXagKNS04JpuKDaMlOWCMnsGrIGG7r_9xwfcdC7xIl2Ic9cxBla5IwH5qJ561yUf6zjujRR&usqp=CAE);
+}
+
+.dnd5aventureiro{
+    background-image: url(https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRv6f-izo2jQe4dd_JhnrFi373WZ1W6UYBMTpapM-tnmNXwsilIqxl9pjegSPV1ntrUDN6ueHuI2UuhS4nBW-jqsF2Qfhyg&usqp=CAE);
+}
+
+.dnd5kit{
+    background-image: url(https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQJafNUPmiGGojbjfyugy8UyF-77rFw5Nr56KiJPAz7IvpqI05OQhjSLmm2cZg2AgwLvnNJHgiDUr2OLAI3J70k4z4Dw275b6p_8Y0cyzTQbX19WJhhpWMG1A&usqp=CAE);
+}
+
+.cdcguardiao{
+    background-image: url(https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSxps74pDVFzCVFvCH8Pp2YGIZjisnmAQDBwAMrI6-kkRWjXHOZ0mkCV1gMdjeMq9olQxL2A0Gn8F9UGCSHOr4U2KvWvSs3B_uXydi5Ue9wLFVZTrrsJNsx5g&usqp=CAE);
+}
+
+.cdcinvestigador{
+    background-image: url(https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcREfLsVpsNmR9VWViKYBNiv0QtuLcf5s5Zs0BaNCqLqcg7KD2AaPH5Sv84M8aSPdH9GRmedN9LeVHYg9fv_vFBYKvtIschQsb5DH10aTAcKyYhp2gHPpCPO&usqp=CAE);
+}
+
+.dnd1{
+    background-image: url(https://m.media-amazon.com/images/I/71kM9wdaeHL.jpg);
+}
+
+.dnd2{
+    background-image: url(https://m.media-amazon.com/images/I/81kMDv6VCwL.jpg);
+}
+
+.dnd3{
+    background-image: url(https://m.media-amazon.com/images/I/81nCz2K+o3L.jpg);
+}
+
+.dnd4{
+    background-image: url(https://m.media-amazon.com/images/I/81HE-xLfK2L.jpg);
+}
+
+.dnd5{
+    background-image: url(https://m.media-amazon.com/images/I/51UmXPW6MAL.jpg);
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+}
+
+@media (max-width:700px){
+   body{
+    background-color: blue;
+   }
+}

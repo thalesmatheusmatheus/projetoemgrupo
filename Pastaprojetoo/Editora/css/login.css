@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/*Estilizando o fundo da página */
+.login {
+    height: 100vh;
+    background: linear-gradient(120deg, black, grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilizando o container * obs: borde-box calcula junto com o padding*/
+
+.container_login {
+    min-height: 400px;
+    width: 300px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Título */
+
+.titulo_login {
+    margin-bottom: 32px;
+    color: rgba(0, 0, 0, 0.57);
+}
+
+/*Estilizando o form */
+
+.form-login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Estilizando area login */
+
+.login-input {
+
+    height: 48px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 8px;
+    border: unset;
+    outline: none;
+}
+
+.login-input-border{
+    height: 1px;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: #cfcfcf;
+    transition: .3s ease-in-out;
+}
+
+.login-input-border::after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 0;
+    margin-bottom: 16px;
+    background: linear-gradient(120deg, black, grey);
+    transition: .3s ease-in-out;
+
+}
+
+/*Dando efeito no input */
+.login-input:focus + .login-input-border::after{
+    width: 100%;
+}
+
+.login-input-border.error::after{
+    background: red ;
+}
+
+/*Estilizando o button e reset */
+.login-submit {
+    height: 48px;
+    width: 100%;
+    padding-left: 8px;
+    outline: none;
+    position: relative;
+    background: linear-gradient(120deg, black,gray,black);
+    background-size: 200%;
+    margin-bottom: 32px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: unset;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.login-submit:disabled{
+    background: rgba(0, 0, 0, 0.393);
+    cursor: not-allowed;
+}
+
+.login-submit:hover{
+    background-position: right;
+}
+
+.login-submit.success{
+    background: rgb(56, 154, 56);
+}
+
+.login-submit.error{
+    background: red;
+}
+
+
+
+.reset{
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.574);
+    text-decoration: none;
+    
+}

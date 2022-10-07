@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editora</title>
+    <link rel="stylesheet" href="/css/produtos.css">
+    <script src="/js/produtos.js"></script>
+</head>
+
+<body>
+    <script>
+    var clicks = 0;
+    function hello() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+
+    <header class="barra">
+        <nav>
+            <a class="logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTENUrsJXyephsSwOow7hm_sI2Y5nHGNIO0x8P1fHUgwAeBpwbp7p6Ns20jokQlgImKDw&usqp=CAU"
+                    class="logo">
+            </a>
+            <a class="menu" href="produtos.html">Produtos</a>
+            <a class="menu" href="conteudo.html">Conteúdo</a>
+            <a class="menu" href="editora.html">Editora</a>
+            <div class="busca" id="divBusca">
+                <input class="opcoes" type="text" id="txtBusca" placeholder="Buscar..." />
+                <img class="opcoes" src="https://icon-library.com/images/search-icon-jpg/search-icon-jpg-5.jpg"
+                    id="btnBusca" alt="Buscar" />
+            </div>
+            <a class="autenticacao" href="#login">Login</a>
+            <a class="autenticacao" href="#registar">Registrar</a>
+            <div class="iconecarrinho"></div>
+            <a class="carrinho" id="clicks">0</a>
+        </nav>
+    </header>
+
+<div class="invisivel"></div>
+<div class="mae">
+    <div class="secao">
+        <div class="centro">
+            <a class="retorno" href="/index.html">Início</a> <div class="retorno">»</div> <a class="retorno" href="./produtos.html">Produtos</a><div class="retorno">»</div><a class="retorno">Linha Dungeons & Dragons</a> 
+        </div>
+    </div>
+
+    <div class="secao">
+        <div class="centro">
+            <h2>Dungeons & Dragons 5ª Edição - Livro do Jogador</h2>
+        </div>
+    </div>
+
+    <div class="secao">
+        <div class="centro">
+            <div class="pai">
+                <div class="amostra dnd1"></div>
+                <div class="amostra dnd2"></div>
+                <div class="amostra dnd3"></div>
+                <div class="amostra dnd4"></div>
+                <div class="amostra dnd5"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="secao">
+        <div class="centro">
+            <p>
+            o Livro do Jogador é a principal referência para todo participante de uma mesa de Dungeons & Dragons. o livro contém as regras para criação de personagens, antecedentes e perícias, além das regras para passar de nível, exploração, combate.e muito mais. Use esse guia para criar personagens das raças e classes mais icônicas do D&D.<br><br>
+            Em Dungeons and Dragons, você e seus amigos podem criar.suas próprias lendas. Guiados por um Mestre, vocês criam, desenvolvem e representam.personagens.ao longo de uma ou mais histórias, jogando.dados e atravessando mapas enquanto desvendam um universo tão grande quanto a sua imaginação.<br><br>
+            O Livro do Jogador é o primeiro dos três principais livros de regras do D&D, junto com o Livro dos Monstros e Livro de Mestre. a quinta edição é a base para iniciantes e veteranos do universo de D&D.<br><br>
+            O Livro do Jogador ensinará você a criar um personagem no universo do Dungeons & Dragons, além de compreender o seu papel nessa aventura.<br><br>
+            Criado em 1974, Dungeons & Dragons é o maior RPG do mundo..Ele transformou a cultura dos jogos.ao combinar.elementos clássicos do universo da fantasia com miniaturas e combates.<br><br>
+        </div>
+    </div>
+
+    <div class="barrinha">
+        <div class="centro">
+            <div class="preco2"><h6>Comprar: R$239,90</h6></div>
+            <button class="compra2" onclick="hello()"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT734twAiYRWM-UV44nT_82GMF2jCVnqRpWeHdKhxST87ziWcOwvJm2AlxGnFgWaPaVCoo&usqp=CAU" id="btnCompra" alt="Comprar" /></button>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
